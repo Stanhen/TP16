@@ -3,4 +3,6 @@ project(TP16 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(TP16 main.c)
+add_executable(TP16 main.c
+        exo4.c
+        exo4.h)
